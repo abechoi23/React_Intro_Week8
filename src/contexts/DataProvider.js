@@ -31,7 +31,7 @@ export const DataProvider = function (props) {
       setPost(loadedPosts);
     }
     getPost();
-  }, [db]);
+  }, []);
 
   async function getPost(uid, id) {
     // const response = await fetch(
